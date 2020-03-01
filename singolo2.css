@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    overflow: overlay;
+}
+header {
+    box-sizing: border-box;
+    height: 880px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+}
+.portfolio {
+    padding: 0 40px;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+h1{
+    padding-top: 65px;
+    color: #666d89;
+    font-size: 30px;
+    font-weight: 900;
+}
+p {
+    color: #767e9e;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 28.5px;
+    line-height: 30px;
+}
+.menu ul {
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
+.menu ul li {
+
+    margin-right: 10px;
+    display: inline-block;
+}
+.menu a {
+    text-decoration: none;
+    color: #767e9e;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.menu ul li :hover{
+    color:#fff;
+    border: 1px solid #fff;
+}
+.illustration {
+    overflow: hidden;
+    height: 615px;
+}
+.illustration img {
+    width: 220px;
+    height: 185px;
+    clear: left;
+    display: flex;
+    float: left;
+    padding-bottom: 20px;
+}
+.illustration{
+    column-count: 4;
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.AboutUs {
+    background-color: #f2f2f2;
+    height: 735px;
+    border-bottom: 6px solid #ffffff;
+    box-sizing: border-box;
+    width: 100vw;
+}
+.main {
+    padding: 0 39px;
+    width: 940px;
+    margin: 0 auto;
+}
+.photo {
+    column-count: 3;
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.photo h2 {
+    font-size: 18px;
+    color: #666d89;
+    font-weight: 900;
+    height:22px;
+    overflow: hidden;
+}
+.photo p {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 17px;
+    line-height: 22px;
+}
+.photo img {
+    margin-top: 49px;
+    margin-bottom: 18px;
+}
+.link img {
+    margin-top:29px;
+    margin-bottom: 0px;
+    margin-right: 8px;
+}
+.link img:hover{
+    width: 13%;
+    height: 13%;
+}
